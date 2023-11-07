@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* setting */
+@import url("setting/_fonts.scss");
+@import url("setting/_reset.scss");
+@import url("setting/_vars.scss");
+@import url("setting/_mixin.scss");
+
+/* section */
+@import url("section/_header.scss");
+@import url("section/_intro.scss");
+@import url("section/_skill.scss");
+@import url("section/_site.scss");
+@import url("section/_port.scss");
+@import url("section/_contact.scss");
+@import url("section/_footer.scss");

@@ -7,10 +7,11 @@
 
 셋째로, 리액트는 단방향 데이터 흐름을 기반으로 한 상태 관리가 용이합니다. 부모 컴포넌트에서 자식 컴포넌트로 데이터를 전달하고, 필요한 경우 상태를 업데이트하여 어플리케이션의 상태를 관리할 수 있습니다. 또한 Redux, Context API 등을 통해 복잡한 상태 관리를 위한 라이브러리를 도입하여 애플리케이션의 확장성을 높일 수 있습니다.
 
-이러한 장점들로 인해 리액트는 현대적인 웹 개발에서 매우 인기 있는 프론트엔드 라이브러리로 자리 잡았습니다.   
+이러한 장점들로 인해 리액트는 현대적인 웹 개발에서 매우 인기 있는 프론트엔드 라이브러리로 자리 잡았습니다.
+   
 
 ## 작업 순서
-1. 리액트 설치 `npx create-react-app 포로젝트이름` 프로젝트이름 : react-project
+1. 리액트 설치 `npx create-react-app 프로젝트이름` 프로젝트이름 : react-project
 2. git에 업로드
 3. [lenis 사이트](https://lenis.studiofreight.com/)
 
@@ -19,6 +20,14 @@
 2. gsap 설치 `npm i gsap`
 3. sass 설치 `npm i sass`
 4. lenis 설치 `npm i @studio-freight/lenis`
+5. react-router-dom 설치 `npm install react-router-dom`
+
+### GSAP
+GSAP은 "GreenSock Animation Platform"의 약자로, 웹 애니메이션을 만들기 위한 강력한 자바스크립트 라이브러리입니다. GSAP는 HTML 요소들을 부드럽게 애니메이션화하고 제어하는 데 사용됩니다. CSS 애니메이션과 비교했을 때, GSAP은 더 다양한 애니메이션 효과를 지원하며 브라우저 호환성이 우수합니다. 또한, 시간 기반 애니메이션을 만들 때 직관적이고 강력한 API를 제공하여 개발자들이 복잡한 애니메이션을 쉽게 작성할 수 있습니다. GSAP은 웹 애니메이션을 개발하는데 있어서 매우 인기 있는 선택 중 하나입니다.   
+[GSAP 사이트](https://gsap.com/)   
+### lenis
+lenis.js는 JavaScript로 작성된 오픈 소스 웹 프레임워크입니다. 이 프레임워크는 웹 애플리케이션 및 API를 개발하기 위해 사용됩니다. lenis.js는 경량화되고 빠른 속도로 동작하며, 간단한 문법과 구조를 제공하여 개발자가 쉽게 웹 애플리케이션을 구축할 수 있도록 도와줍니다.   
+[lenis 사이트](https://lenis.studiofreight.com/)
 
 ## 트러블 슈팅
 <details>
@@ -32,9 +41,3 @@ Git이 이 둘 중 어느 쪽을 선택할지 혼란와 뜨는 에러
 `git config core.autocrlf true // 해당 프로젝트에만 적용`   
 </details>
 
-### GSAP
-GSAP은 "GreenSock Animation Platform"의 약자로, 웹 애니메이션을 만들기 위한 강력한 자바스크립트 라이브러리입니다. GSAP는 HTML 요소들을 부드럽게 애니메이션화하고 제어하는 데 사용됩니다. CSS 애니메이션과 비교했을 때, GSAP은 더 다양한 애니메이션 효과를 지원하며 브라우저 호환성이 우수합니다. 또한, 시간 기반 애니메이션을 만들 때 직관적이고 강력한 API를 제공하여 개발자들이 복잡한 애니메이션을 쉽게 작성할 수 있습니다. GSAP은 웹 애니메이션을 개발하는데 있어서 매우 인기 있는 선택 중 하나입니다.   
-[GSAP 사이트](https://gsap.com/)   
-### lenis
-lenis.js는 JavaScript로 작성된 오픈 소스 웹 프레임워크입니다. 이 프레임워크는 웹 애플리케이션 및 API를 개발하기 위해 사용됩니다. lenis.js는 경량화되고 빠른 속도로 동작하며, 간단한 문법과 구조를 제공하여 개발자가 쉽게 웹 애플리케이션을 구축할 수 있도록 도와줍니다.   
-[lenis 사이트](https://lenis.studiofreight.com/)
