@@ -1,4 +1,6 @@
 # react를 이용한 포트폴리오 사이트 만들기
+
+## React를 사용하는 이유
 리액트(React)는 사용자 인터페이스를 만들기 위한 자바스크립트 라이브러리로, 다음과 같은 여러 가지 장점을 가지고 있습니다.   
 
 첫째로, 리액트는 가독성이 뛰어나고 유지보수가 용이합니다. JSX라는 문법을 사용하여 JavaScript와 HTML을 결합하여 컴포넌트를 만들 수 있습니다. 이로써 코드의 가독성이 향상되고, 컴포넌트 단위로 모듈화하여 개발할 수 있어 유지보수가 용이합니다. 또한 가상 DOM(Virtual DOM)을 활용하여 성능을 최적화하고, 불필요한 렌더링을 방지하여 효율적으로 작동합니다.   
@@ -13,9 +15,9 @@
 ## 작업 순서
 1. 리액트 설치 `npx create-react-app 프로젝트이름`
 2. git에 업로드
-3. [lenis 사이트](https://lenis.studiofreight.com/)
+3. smooth 효과 적용   [lenis 사이트](https://lenis.studiofreight.com/)
 4. 빌드 : `npm run build`
-5. [Firebase 사이트](https://firebase.google.com/?hl=ko)
+5. 배포 : Firebase 배포 작업   [Firebase 사이트](https://firebase.google.com/?hl=ko)
 
 ## 설치
 1. react 설치 `npx create-react-app 프로젝트이름` 프로젝트이름 : react-project
