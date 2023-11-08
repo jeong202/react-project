@@ -23,7 +23,7 @@
 3. sass 설치 `npm i sass`
 4. lenis 설치 `npm i @studio-freight/lenis`
 5. react-router-dom 설치 `npm install react-router-dom`
-6. Firebase 호스팅 설정
+6. Firebase 호스팅 설정   
    Firebase CLI 설치 : `npm install -g firebase-tools`
 
 ### GSAP
