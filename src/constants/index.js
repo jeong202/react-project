@@ -189,3 +189,11 @@ export const contactText = [
         title: "mail : jhyjhy968@gmail.com",
     },
 ];
+
+export const footerText = [
+    {
+        title: "github",
+        desc: "깃헙에 들어오시면 모든 소스를 볼 수 있습니다.",
+        link: "/",
+    }
+];
